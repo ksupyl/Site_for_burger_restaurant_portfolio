@@ -16,10 +16,12 @@ body{
     line-height: 43px;
     color: #000;
     background-color: #fff;
+    font-family: "Montserrat";
+    font-style: normal;
 }
 
 .header_page{
-    width: 1400px;
+    width: 1415px;
     min-height: 900px;
     background: linear-gradient(180deg, #EDA418 47.4%, rgba(237, 164, 24, 0) 100%);
 }
@@ -52,7 +54,7 @@ body{
     display: block;
     min-width: 200px;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 30px;
     text-decoration: none;
     color: #000000;
@@ -60,8 +62,8 @@ body{
 
 .nav_button{
     display: inline-block;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     background-color: #000000;
     border: none;
     border-radius: 100%;
@@ -111,4 +113,109 @@ body{
     background: rgba(229, 38, 38, 1);
     border-radius: 50px;
     border: none;
+}
+
+.main_page{
+    width: 1415px;
+    min-height: 900px;
+    text-align: center;
+}
+
+.container_catalog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.catalog_title{
+    margin: 0;
+    padding: 0;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.catalog_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 40px;
+    padding: 0;
+    gap: 40px 30px;
+    list-style: none;
+}
+
+.catalog_item{
+    width: 400px;
+}
+
+.catalog_item_text{
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.footer_page{
+    width: 1415px;
+    min-height: 450px;
+    text-align: center;
+    background-image: linear-gradient(0deg, #EDA418, rgba(237, 164, 24, 0) 100%);
+}
+
+.footer_list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    padding-top: 160px;
+    gap: 100px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav_footer_title{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer_page_list{
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    list-style: none;
+}
+
+.footer_text{
+    padding-top: 25px;
+}
+
+.footer_contacts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    list-style: none;
+    padding-top: 25px;
+}
+
+.footer_images{
+    display: block;
+}
+
+.footer_images.VK{
+    padding-top: 3px;
 }
