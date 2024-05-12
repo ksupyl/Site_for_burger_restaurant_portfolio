@@ -17,3 +17,57 @@ body{
     color: #000;
     background-color: #fff;
 }
+
+.header_page{
+    position: absolute;
+    width: 1400px;
+    min-height: 900px;
+    background: linear-gradient(180deg, #EDA418 47.4%, rgba(237, 164, 24, 0) 100%);
+    left: 0px;
+    top: 0px;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 70px;
+    padding-top: 105px;
+    padding-right: 65px;
+}
+
+.logo{
+    display: block;
+    margin-top: 8px;
+    position: absolute;
+    width: 354.42px;
+    height: 72.51px;
+    left: 130px;
+    top: 105px;
+}
+
+.nav_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: auto o;
+    padding: 0;
+    margin-left: 150px;
+    list-style: none;
+}
+
+.nav_header_title{
+    position: absolute;
+    width: 151.5px;
+    height: 37.47px;
+    left: 632px;
+    top: 117px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #000000;
+}
